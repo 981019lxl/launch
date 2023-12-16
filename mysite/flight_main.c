@@ -6,8 +6,6 @@ char  path[50] = "D:/work/vs/";
 
 void play1();
 void play2();
-/// @brief 
-/// @return 
 int main()
 {
 	char TextBuf1[20],TextBuf2[50];
