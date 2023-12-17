@@ -20,7 +20,7 @@ int main()
 		//scanf("%s",&TextBuf2);
 		gets(TextBuf2);
 		strcat(path,strcat(TextBuf2,".txt"));
-		fp = fopen(path,"a+");1
+		fp = fopen(path,"a+");
 		if(fp == NULL)
 		{
 			printf("创建文件失败");
